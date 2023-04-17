@@ -9,8 +9,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 // General.
-$string['pluginname'] = 'Boost Union Child';
-$string['choosereadme'] = 'Theme Boost Union Child is a template for child themes of Boost Union.';
+$string['pluginname'] = 'Boost Union Child Theme Template';
+$string['choosereadme'] = 'This plugin is just a boilerplate template one can use to develop Boost Union child themes.';
 
 // Privacy API.
-$string['privacy:metadata'] = 'The Boost Union Child theme does not store any personal data about any user.';
+$string['privacy:metadata'] = 'The Boost Union Child Theme Template does not store any personal data about any user.';
