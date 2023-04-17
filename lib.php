@@ -21,8 +21,6 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-// TODO: Check if we need to set our own H5P renderer or if Boost Union's is used.
-
 /**
 * Returns the main SCSS content.
 * @return string
