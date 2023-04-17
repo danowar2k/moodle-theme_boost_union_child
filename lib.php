@@ -34,44 +34,6 @@ function theme_boost_union_child_get_main_scss_content():string {
 }
 
 /**
- * // Copy of theme/boost_union/lib.php, function theme_boost_union_before_standard_html_head (Plugin version: v4.1-r4)
- * // Reason: https://github.com/moodle-an-hochschulen/moodle-theme_boost_union/issues/245
- * // Can be removed once PR is in master
- * Callback to add head elements.
- *
- * We use this callback to inject the FontAwesome CSS code and the flavour's CSS code to the page.
- *
- * @return string
- */
-function theme_boost_union_child_before_standard_html_head() {
-    global $CFG;
-
-    // Initialize HTML (even though we do not add any HTML at this stage of the implementation).
-    $html = '';
-
-    // If another theme than Boost Union is active, return directly.
-    // This is necessary as the before_standard_html_head() callback is called regardless of the active theme.
-// MODIFICATION start (We need to check for our theme)
-//    if ($CFG->theme != 'boost_union') {
-    if ($CFG->theme != 'boost_union_child') {
-// MODIFICATION end (We need to check for our theme)
-        return $html;
-    }
-
-    // Require local library.
-    require_once($CFG->dirroot . '/theme/boost_union/locallib.php');
-
-    // Add the FontAwesome icons to the page.
-    theme_boost_union_add_fontawesome_to_page();
-
-    // Add the flavour CSS to the page.
-    theme_boost_union_add_flavourcss_to_page();
-
-    // Return an empty string to keep the caller happy.
-    return $html;
-}
-
-/**
  * Note: This is necessary if we just want to use the configured Boost Union settings
  *  and we don't want to reimplement them.
  *  Although theme_boost_union_get_pre_scss gets called earlier,
