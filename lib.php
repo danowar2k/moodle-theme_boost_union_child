@@ -81,7 +81,7 @@ function theme_boost_union_child_before_standard_html_head() {
  *
  * @return string
  */
-function theme_boost_union_feu_base_get_pre_scss():string {
+function theme_boost_union_child_get_pre_scss():string {
     return theme_boost_union_get_pre_scss(theme_config::load('boost_union'));
 }
 
@@ -93,7 +93,7 @@ function theme_boost_union_feu_base_get_pre_scss():string {
  *
  * @return string
  */
-function theme_boost_union_feu_base_get_extra_scss():string {
+function theme_boost_union_child_get_extra_scss():string {
     return theme_boost_union_get_extra_scss(theme_config::load('boost_union'));
 }
 

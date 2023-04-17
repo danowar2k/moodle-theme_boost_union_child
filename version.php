@@ -24,7 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'theme_boost_union_feu_base';
+$plugin->component = 'theme_boost_union_child';
 $plugin->version = 2023031500;
 $plugin->release = 'WIP';
 $plugin->requires = 2022112800;
