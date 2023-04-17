@@ -15,10 +15,9 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Theme Boost Union - Version file
+ * Theme Boost Union Child - Version file
  *
- * @package    theme_boost_union
- * @copyright  2022 Alexander Bias, lern.link GmbH <alexander.bias@lernlink.de>
+ * @package    theme_boost_union_child
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
