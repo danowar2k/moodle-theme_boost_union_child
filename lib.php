@@ -56,6 +56,9 @@ function theme_boost_union_child_get_pre_scss():string {
  * @return string
  */
 function theme_boost_union_child_get_extra_scss():string {
-    return theme_boost_union_get_extra_scss(theme_config::load('boost_union'));
+    // theme_boost_union replicates the boost setting, so we need to use that
+    $boostExtraScss = theme_boost_get_extra_scss(theme_config::load('boost_union'));
+    $boostUnionExtraScss = theme_boost_union_get_extra_scss(theme_config::load('boost_union'));
+    return $boostExtraScss.$boostUnionExtraScss;
 }
 
