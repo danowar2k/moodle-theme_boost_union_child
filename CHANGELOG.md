@@ -5,8 +5,6 @@
 
 ### Fixed
 
-- Prepended theme_boost extra SCSS so that settings **backgroundimage** and **loginbackgroundimage** work correctly.
-
 ### Added
 
 ### Changed
@@ -15,6 +13,11 @@
 
 -->
 
+## [v4.1-r6-1.0.1]
+
+### Fixed
+
+- Prepended theme_boost extra SCSS so that settings **backgroundimage** and **loginbackgroundimage** work correctly.
 
 ## [v4.1-r6-1.0.0]
 
