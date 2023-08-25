@@ -24,10 +24,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'theme_boost_union_child';
-$plugin->version = 2023031500;
+$plugin->version = 2023082500;
 $plugin->requires = 2022112800;
 $plugin->supported = [401, 401];
 $plugin->maturity = MATURITY_STABLE;
 $plugin->dependencies = [
-    'theme_boost_union' => 2023010508 # v4.1-r6
+    'theme_boost_union' => 2023010516 # v4.1-r9
 ];
