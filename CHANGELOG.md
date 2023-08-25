@@ -5,6 +5,9 @@
 
 ### Fixed
 
+- Replicated unaddableblocks setting from theme_boost because it's always accessed using the current theme
+  - Solves [#3](https://github.com/danowar2k/moodle-theme_boost_union_child/issues/3)
+
 ### Added
 
 ### Changed
