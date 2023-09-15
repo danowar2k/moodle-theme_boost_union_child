@@ -39,6 +39,7 @@ $THEME->usefallback = false;
 // The $THEME->layouts setting is not duplicated here as they are properly inherited from theme_boost_union.
 // Note: layouts are taken youngest to oldest, first found
 $THEME->enable_dock = false;
+$THEME->yuicssmodules = [];
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
 $THEME->requiredblocks = '';
 $THEME->addblockposition = BLOCK_ADDBLOCK_POSITION_FLATNAV;
