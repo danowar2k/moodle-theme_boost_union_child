@@ -13,6 +13,12 @@
 
 -->
 
+## [v4.1-r9-1.0.3]
+
+### Fixed
+
+- Boost union deactivated using Moodle's yuicssmodules, but the template didn't, leading to a different layout.
+
 ## [v4.1-r9-1.0.2]
 
 ### Fixed
