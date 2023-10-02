@@ -34,4 +34,11 @@ if ($ADMIN->fulltree) {
     $default = 'navigation,settings,course_list,section_links';
     $setting = new admin_setting_configtext($name, $title, $description, $default, PARAM_TEXT);
     $settings->add($setting);
+
+    // Setting to adjust the brand color: A key feature for assigning unique colors to distinct 
+    course categories, particularly when paired with the Boost Union Theme, which possesses a 
+    different brand color.
+    $setting = new admin_setting_configcolourpicker('theme_boost_union_child/brandcolor',
+    get_string('brandcolor', 'theme_boost'), get_string('brandcolor_desc', 'theme_boost'), '');
+    $settings->add($setting);
 }
